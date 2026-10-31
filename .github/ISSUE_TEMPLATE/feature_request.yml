@@ -1,0 +1,33 @@
+name: Feature request
+description: Предложить улучшение FastClickPearl
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Идея
+      description: Что бы вы хотели добавить или изменить?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это нужно
+      description: Какую задачу решает предложение?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: minecraft-version
+    attributes:
+      label: Версия Minecraft
+      options:
+        - Все версии
+        - 1.21.11
+        - 26.1
+        - 26.2
+    validations:
+      required: true

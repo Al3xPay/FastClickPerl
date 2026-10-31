@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fastclickpearl",
+	"version": "${version}",
+	"name": "FastClickPearl",
+	"description": "Finds an ender pearl anywhere in the inventory and throws it with a single key press.",
+	"authors": [
+		"Al3xPay"
+	],
+	"license": "MIT",
+	"icon": "assets/fastclickpearl/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"Al3xPay.FastClickPearl"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

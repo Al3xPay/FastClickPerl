@@ -1,0 +1,13 @@
+{
+	"key.category.fastclickpearl.main": "FastClickPearl",
+	"key.fastclickpearl.throw": "Бросить жемчуг",
+	"key.fastclickpearl.menu": "Открыть настройки",
+	"screen.fastclickpearl.menu": "FastClickPearl",
+	"screen.fastclickpearl.title": "Настройки FastClickPearl",
+	"screen.fastclickpearl.key": "Клавиша: %s",
+	"screen.fastclickpearl.enabled": "Включено: %s",
+	"screen.fastclickpearl.on": "Да",
+	"screen.fastclickpearl.off": "Нет",
+	"screen.fastclickpearl.hint": "Жемчуг ищется автоматически в хотбаре и инвентаре.",
+	"screen.fastclickpearl.swap_hint": "Если жемчуг не в хотбаре, мод меняет его местами и возвращает обратно."
+}

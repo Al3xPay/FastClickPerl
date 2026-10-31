@@ -1,0 +1,13 @@
+{
+	"key.category.fastclickpearl.main": "FastClickPearl",
+	"key.fastclickpearl.throw": "Throw pearl",
+	"key.fastclickpearl.menu": "Open settings",
+	"screen.fastclickpearl.menu": "FastClickPearl",
+	"screen.fastclickpearl.title": "FastClickPearl settings",
+	"screen.fastclickpearl.key": "Key: %s",
+	"screen.fastclickpearl.enabled": "Enabled: %s",
+	"screen.fastclickpearl.on": "Yes",
+	"screen.fastclickpearl.off": "No",
+	"screen.fastclickpearl.hint": "The pearl is found automatically in the hotbar or inventory.",
+	"screen.fastclickpearl.swap_hint": "If it is not in the hotbar, it is swapped in and returned back."
+}

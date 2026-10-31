@@ -1,0 +1,76 @@
+name: Bug report
+description: Сообщить о проблеме в FastClickPearl
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за отчёт! Заполните поля ниже — так проблему получится воспроизвести быстрее.
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Версия мода
+      description: Например, 1.0.0
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: minecraft-version
+    attributes:
+      label: Версия Minecraft
+      options:
+        - 1.21.11
+        - 26.1
+        - 26.2
+    validations:
+      required: true
+
+  - type: input
+    id: loader-version
+    attributes:
+      label: Версия Fabric Loader
+      placeholder: 0.20.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Что произошло
+      description: Опишите проблему и что вы ожидали увидеть.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      placeholder: |
+        1. Зайти на сервер
+        2. Нажать V
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Лог или скриншот
+      description: Прикрепите `latest.log` или скриншот ошибки.
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Проверки
+      options:
+        - label: Я использую Fabric API
+          required: true
+        - label: Я проверил, что мод включён в настройках
+          required: true
